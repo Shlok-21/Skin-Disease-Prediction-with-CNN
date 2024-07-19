@@ -6,5 +6,5 @@
 </div>
 
 ### Study
-Used kerastuner for hyperparameter tuning the CNN
+Used kerastuner for hyperparameter tuning the CNN <br>
 Experimented with Flask framework to create web pages

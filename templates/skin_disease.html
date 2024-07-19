@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AI Based Skin Disease Prediction</title>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 60px;
+        }
+        .navbar-brand img {
+            max-height: 40px;
+        }
+        .title {
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-top: 20px;
+        }
+        .btn-predict {
+            background-color: #f0ad4e;
+            border-color: #f0ad4e;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+	<main>
+		<section class="container text-center">
+			<h2 class="title">{{pred_output}}</h2>
+			<div class="row justify-content-center">
+				<div class="col-lg-6 col-md-8">
+					<img src="{{user_image}}" alt="Uploaded Image" class="img-thumbnail">
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
